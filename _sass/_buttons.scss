@@ -6,3 +6,12 @@ padding: .5rem;
 .btn:hover {
 background-color: #eeeeee;
 }
+
+.btn--success {
+background-color: green;
+padding: .5rem;
+}
+
+.btn--success:hover {
+background-color: blue;
+}
