@@ -4,7 +4,7 @@
 	background-color: $default;
 	border-radius: .25rem;
 	box-shadow: 0 1px 0 #c5c5c5;
-	color: #3e3e3e;
+	color: $black;
 	padding: .5rem;
 	position: relative;
 	text-decoration: none;
@@ -13,10 +13,6 @@
 .btn:hover {
 	box-shadow: none;
 	top: 1px
-}
-
-a.btn:hover {
-	color: $white;
 }
 
 /* Primary */
@@ -29,6 +25,7 @@ a.btn:hover {
 }
 
 .btn--success:hover {
+	color: $white;
 }
 
 /* Info */
@@ -40,6 +37,7 @@ padding: .5rem;
 }
 
 .btn--info:hover {
+	color: $black;
 }
 
 /* Success */
@@ -51,6 +49,7 @@ padding: .5rem;
 }
 
 .btn--success:hover {
+	color: $white;
 }
 
 /* Warning */
@@ -62,6 +61,7 @@ padding: .5rem;
 }
 
 .btn--warning:hover {
+	color: $white;
 }
 
 /* Danger */
@@ -73,15 +73,18 @@ padding: .5rem;
 }
 
 .btn--danger:hover {
+	color: $white;
 }
 
 /* Inverse */
 
-.btn--inverse {
+.btn--inverse, {
 	color: $white;
 background-color: $inverse;
 padding: .5rem;
 }
 
 .btn--inverse:hover {
+	color: $white;
 }
+
