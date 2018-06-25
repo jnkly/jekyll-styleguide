@@ -18,7 +18,7 @@
 /* Primary */
 
 .btn--primary {
-	color: #ffffff;
+	color: $white;
 	background-color: $primary;
 	padding: .5rem;
 	box-shadow: 0 1px 0 #c5c5c5;
@@ -30,7 +30,7 @@
 /* Info */
 
 .btn--info {
-	color: #000000;
+	color: $black;
 background-color: $info;
 padding: .5rem;
 }
@@ -41,7 +41,7 @@ padding: .5rem;
 /* Success */
 
 .btn--success {
-	color: #ffffff;
+	color: $white;
 background-color: $success;
 padding: .5rem;
 }
@@ -52,7 +52,7 @@ padding: .5rem;
 /* Warning */
 
 .btn--warning {
-	color: #ffffff;
+	color: $white;
 background-color: $warning;
 padding: .5rem;
 }
@@ -63,7 +63,7 @@ padding: .5rem;
 /* Danger */
 
 .btn--danger {
-	color: #ffffff;
+	color: $white;
 background-color: $danger;
 padding: .5rem;
 }
@@ -74,7 +74,7 @@ padding: .5rem;
 /* Inverse */
 
 .btn--inverse {
-	color: #ffffff;
+	color: $white;
 background-color: $inverse;
 padding: .5rem;
 }
