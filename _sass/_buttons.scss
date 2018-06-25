@@ -1,12 +1,13 @@
 /* Default */
 
 .btn {
+	background-color: $default;
 	border-radius: .25rem;
 	box-shadow: 0 1px 0 #c5c5c5;
 	color: #3e3e3e;
-	background-color: $default;
 	padding: .5rem;
 	position: relative;
+	text-decoration: none;
 }
 
 .btn:hover {
