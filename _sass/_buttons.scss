@@ -1,17 +1,80 @@
+/* Default */
+
 .btn {
-background-color: #f5f5f5;
-padding: .5rem;
+	border-radius: .5rem;
+	box-shadow: 0 1px 0 #c5c5c5;
+	color: #3e3e3e;
+	background-color: #f5f5f5;
+	padding: .5rem;
 }
 
 .btn:hover {
-background-color: #eeeeee;
+	background-color: #eeeeee;
 }
 
+/* Primary */
+
+.btn--primary {
+	color: #fffff;
+	background-color: #2575b0;
+	padding: .5rem;
+	box-shadow: 0 1px 0 #c5c5c5;
+}
+
+.btn--success:hover {
+}
+
+/* Info */
+
+.btn--info {
+	color: #000000;
+background-color: #a4d2df;
+padding: .5rem;
+}
+
+.btn--info:hover {
+}
+
+/* Success */
+
 .btn--success {
-background-color: green;
+	color: #ffffff;
+background-color: #297c46;
 padding: .5rem;
 }
 
 .btn--success:hover {
-background-color: blue;
+}
+
+/* Warning */
+
+.btn--warning {
+	color: #ffffff;
+background-color: #eaa96a;
+padding: .5rem;
+}
+
+.btn--warning:hover {
+}
+
+/* Danger */
+
+.btn--danger {
+	color: #ffffff;
+background-color: #c84d40;
+padding: .5rem;
+}
+
+.btn--danger:hover {
+}
+
+/* Inverse */
+
+.btn--inverse {
+	color: #ffffff;
+background-color: #3e3e3e;
+padding: .5rem;
+}
+
+.btn--inverse:hover {
 }
