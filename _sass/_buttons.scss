@@ -12,6 +12,7 @@
 
 .btn:hover {
 	box-shadow: none;
+	color: $black;
 	top: 1px
 }
 
@@ -87,4 +88,3 @@ padding: .5rem;
 .btn--inverse:hover {
 	color: $white;
 }
-
